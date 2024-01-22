@@ -7,7 +7,7 @@ window.onload = function () {
 	}
 
 var body = document.getElementsByTagName("body")[0];
-body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/cover.png) center no-repeat fixed #000000";
+body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.png) center no-repeat fixed #000000";
 body.style.backgroundSize = "cover";
 body.style.transition = "0s";
 
@@ -16,7 +16,7 @@ window.onscroll = function (event) {
 	var scroll = window.pageYOffset;
 
 	if (scroll <= 20) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/cover.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.png) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		document.getElementById("logo").style.visibility = "visible";
@@ -32,7 +32,7 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 20 && scroll <= 600) || (scroll >= 600 && scroll <= 1000)) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/interlude.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interlude.png) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		document.getElementById("scroll-down").style.visibility = "hidden";
@@ -44,13 +44,13 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 1000 && scroll <= 1800)) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/interview.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interview.png) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		}
 
 	else if (scroll >= 1600 && scroll <= 2600) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/epilogue.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.png) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		}
