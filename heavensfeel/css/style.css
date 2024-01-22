@@ -99,7 +99,7 @@ body::-webkit-scrollbar-thumb {
 #links-button {
 width: 200px;
     height: 50px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/links-button.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/links-button.png) center no-repeat;
 	background-size: cover;
 	    text-transform: uppercase;
     color: #FFFFFF;
@@ -153,27 +153,27 @@ opacity: 0.75;
 }
 
 #typemoon {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/typemoon.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/typemoon.png) center no-repeat;
 	background-size: cover;
 }
 
 #aniplex {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/aniplex.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/aniplex.png) center no-repeat;
 	background-size: cover;
 }
 
 #insaneattic {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/insaneattic.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/insaneattic.png) center no-repeat;
 	background-size: cover;
 }
 
 #mahoyoru {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/mahoyoru.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/mahoyoru.png) center no-repeat;
 	background-size: cover;
 }
 
 #typemoonyash {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/typemoonyash.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/typemoonyash.png) center no-repeat;
 	background-size: cover;
 }
 
@@ -185,7 +185,7 @@ opacity: 0.75;
 	height: 100%;
 	transition: .5s ease;
 	opacity: 1;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/logo.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/logo.png) center no-repeat;
 	background-size: contain;
 	}
 
@@ -196,7 +196,7 @@ opacity: 0.75;
 	height: 45px;
 	transition: .5s ease;
 	opacity: 1;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/subtitle.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/subtitle.png) center no-repeat;
 	background-size: contain;
 	}
 
@@ -320,7 +320,7 @@ opacity: 0.75;
 #divider-1 {
 	width: 452px;
     height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/divider-1.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-1.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
     bottom: 10%;
@@ -332,7 +332,7 @@ opacity: 0.75;
 #divider-2 {
 	width: 406px;
     height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/divider-2.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-2.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
     bottom: 50px;
@@ -341,7 +341,7 @@ opacity: 0.75;
 #divider-3 {
 	width: 362px;
     height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/divider-3.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-3.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
     bottom: 50px;
@@ -350,7 +350,7 @@ opacity: 0.75;
 #to-top {
 	width: 104px;
 	height: 80px;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/fsnhfodcd/assets/to-top.png) center no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/to-top.png) center no-repeat;
 	background-size: cover;
 		position: absolute;
     bottom: 50px;
