@@ -1,3 +1,6 @@
+
+/* ------------------------- DESKTOP VERSION ------------------------- */
+
 window.onload = function () {
 	document.body.classList.add("loaded-hiding");
 	window.setTimeout(function () {
@@ -69,3 +72,29 @@ $(document).ready(function(){
 	}
 	});
 	});
+
+/* ------------------------- MOBILE VERSION ------------------------- */
+
+if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
+
+	document.getElementById("subtitle").style.width = "100%";
+	document.getElementById("subtitle").style.height = "100px";
+	document.getElementById("subtitle").style.top = "30%";
+	document.getElementById("credits").style.height = "150px";
+	document.getElementById("credits").style.top = "2.5%";
+	document.getElementById("typemoon").style.width = "500px";
+	document.getElementById("typemoon").style.height = "150px";
+	document.getElementById("insaneattic").style.width = "500px";
+	document.getElementById("insaneattic").style.height = "150px";
+	document.getElementById("logo-1").style.width = "100%";
+	document.getElementById("logo-1").style.height = "58%";
+	document.getElementById("logo-1").style.backgroundPositionY = "100%";
+	document.getElementById("logo-2").style.width = "100%";
+	document.getElementById("logo-2").style.height = "42%";
+	document.getElementById("logo-2").style.backgroundPositionY = "0%";
+	document.getElementById("scroll-down").style.width = "150px";
+	document.getElementById("scroll-down").style.height = "300px";
+	document.getElementById("scroll-down").style.borderRadius = "100px";
+	document.getElementById("scroll-title").style.fontSize = "60px";
+
+	}
