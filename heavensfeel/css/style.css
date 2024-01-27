@@ -86,96 +86,33 @@ body::-webkit-scrollbar-thumb {
 	width: 80%;
 	}
 
-#links {
-	width: 100%;
-	height: 150px;
-	background: #7F499D;
-	position: fixed;
-    top: -150px;
-	transition: .25s ease;
-	    z-index: 990;
-}
-
-#links-button {
-width: 200px;
-    height: 50px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/links-button.png) center no-repeat;
-	background-size: cover;
-	    text-transform: uppercase;
-    color: #FFFFFF;
-  font-family: "Calibri";
-  font-size:16px;
-  letter-spacing: 2px;
-    position: fixed;
-    top: 0px;
-    right: 5%;
-	    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: .25s ease;
-    z-index: 990;
+#typemoon:hover, #insaneattic:hover, #to-top:hover {
+	opacity: 0.75;
 	}
 
-#button-title {
-	margin-top: -10px;
-}
+#credits {
+	width: 90%;
+	max-width: 1636px;
+	height: 60px;
+	position: absolute;
+	top: 20px;
+	}
 
-#banners {
-width: 95%;
-    height: 150px;
-    padding: 0;
-    margin: auto;
-    gap: 5%;
-    list-style: none;
-    display: flex;
-}
-
-#banners li {
-width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#banners div {
-width: 180px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	border-radius: 5px;
+#credits div {
+	width: 190px;
+	height: 60px;
 	transition: 0.25s;
-}
-
-#banners div:hover {
-opacity: 0.75;
-}
+	}
 
 #typemoon {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/typemoon.jpg) center no-repeat;
-	background-size: cover;
-}
-
-#aniplex {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/aniplex.jpg) center no-repeat;
-	background-size: cover;
-}
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/typemoon.png) center no-repeat;
+	background-size: contain;
+	}
 
 #insaneattic {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/insaneattic.jpg) center no-repeat;
-	background-size: cover;
-}
-
-#mahoyoru {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/mahoyoru.jpg) center no-repeat;
-	background-size: cover;
-}
-
-#typemoonyash {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/typemoonyash.jpg) center no-repeat;
-	background-size: cover;
-}
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/insaneattic.png) center no-repeat;
+	background-size: contain;
+	}
 
 #logo {
 	position: absolute;
@@ -185,7 +122,25 @@ opacity: 0.75;
 	height: 100%;
 	transition: .5s ease;
 	opacity: 1;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/logo.png) center no-repeat;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	}
+
+#logo-1 {
+	width: calc(52% - 25px);
+	height: 100%;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/logo-1.png) center no-repeat;
+	background-size: contain;
+	}
+
+#logo-2 {
+	width: calc(48% - 25px);
+	height: 100%;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/logo-2.jpg) center no-repeat;
 	background-size: contain;
 	}
 
@@ -233,46 +188,57 @@ opacity: 0.75;
 	}
 
 #scroll-title {
-    display: block;
-    text-transform: uppercase;
-    color: #FFFFFF;
-  font-family: "Calibri";
-  font-size:15px;
-  position: absolute;
-  bottom: 5%;
-  letter-spacing: 0.15em;
-  transition: .25s ease;
-}
+	display: block;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: "Calibri";
+	font-size:15px;
+	position: absolute;
+	bottom: 5%;
+	letter-spacing: 0.15em;
+	transition: .25s ease;
+	}
 
 #interlude {
 	width: 100%;
-    height: 800px;
-    position: absolute;
-    top: 101%;
+	height: 800px;
+	position: absolute;
+	top: 101%;
 	transition: .5s ease;
 	display: flex;
 	justify-content: center;
 	}
 
 #interview {
-		width: 100%;
-    height: 800px;
-    position: absolute;
-    top: calc(100% + 800px);
+	width: 100%;
+	height: 800px;
+	position: absolute;
+	top: calc(100% + 800px);
 	transition: .5s ease;
 	display: flex;
 	justify-content: center;
-}
+	}
 
 #epilogue {
-		width: 100%;
-    height: 800px;
-    position: absolute;
-    top: calc(100% + 1600px);
+	width: 100%;
+	height: 700px;
+	position: absolute;
+	top: calc(100% + 1600px);
 	transition: .5s ease;
 	display: flex;
 	justify-content: center;
-}
+	}
+
+#footer {
+	width: 900px;
+	height: 160px;
+	position: absolute;
+	top: calc(100% + 2300px);
+	left: calc(50% - 450px);
+	transition: .5s ease;
+	display: flex;
+	justify-content: center;
+	}
 
 .title {
 	width: 300px;
@@ -300,16 +266,16 @@ opacity: 0.75;
 	text-align: center;
 	line-height: 30px;
 	font-family: "Calibri";
-  font-size:16px;
-  letter-spacing: 1px;
-}
+	font-size:16px;
+	letter-spacing: 1px;
+	}
 
 .video {
-    width: 900px;
-    height: 506px;
-    position: absolute;
-    top: 100px;
-}
+	width: 900px;
+	height: 506px;
+	position: absolute;
+	top: 100px;
+	}
 
 .video iframe {
 	width: 900px;
@@ -319,39 +285,59 @@ opacity: 0.75;
 
 #divider-1 {
 	width: 522px;
-    height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-1.png) center no-repeat;
+	height: 80px;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-1.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-    bottom: 10%;
+	bottom: 10%;
 	visibility: hidden;
 	opacity: 0;
 	transition: .25s ease;
-}
+	}
 
 #divider-2 {
 	width: 468px;
-    height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-2.png) center no-repeat;
+	height: 80px;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-2.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-    bottom: 50px;
-}
+	bottom: 50px;
+	}
 
 #divider-3 {
 	width: 414px;
-    height: 80px;
-    background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-3.png) center no-repeat;
+	height: 80px;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-3.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-    bottom: 50px;
-}
+	bottom: 50px;
+	}
 
 #to-top {
-	width: 104px;
+	width: 80px;
 	height: 80px;
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/to-top.png) center no-repeat;
 	background-size: cover;
-		position: absolute;
-    bottom: 50px;
-}
+	position: absolute;
+	bottom: 80px;
+	right: 0px;
+	transition: 0.25s;
+	}
+
+#disclaimer {
+	width: calc(100% - 80px);
+	line-height: 20px;
+	height: 80px;
+	clip-path: polygon(5% 0, 95% 0, 100% 50%, 95% 100%, 5% 100%, 0% 50%);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	bottom: 80px;
+	left: calc(50% - 450px);
+	background: #7F499D;
+	justify-content: center;
+	font-family: "Calibri";
+	font-size: 16px;
+	}
