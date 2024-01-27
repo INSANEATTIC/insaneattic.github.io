@@ -6,19 +6,19 @@ window.onload = function () {
 	}, 500);
 	}
 
-var body = document.getElementsByTagName("body")[0];
-body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.jpg) center no-repeat fixed #000000";
-body.style.backgroundSize = "cover";
-body.style.transition = "0s";
+var content = document.getElementById("content");
+content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.jpg) center no-repeat fixed #000000";
+content.style.backgroundSize = "cover";
+content.style.transition = "0s";
 
 window.onscroll = function (event) {
 
 	var scroll = window.pageYOffset;
 
 	if (scroll <= 20) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.jpg) center no-repeat fixed #000000";
-		body.style.backgroundSize = "cover";
-		body.style.transition = "0.5s ease";
+		content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.jpg) center no-repeat fixed #000000";
+		content.style.backgroundSize = "cover";
+		content.style.transition = "0.5s ease";
 		document.getElementById("logo").style.visibility = "visible";
 		document.getElementById("logo").style.opacity = "1";
 		document.getElementById("subtitle").style.visibility = "visible";
@@ -32,9 +32,9 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 20 && scroll <= 600) || (scroll >= 600 && scroll <= 1000)) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interlude.jpg) center no-repeat fixed #000000";
-		body.style.backgroundSize = "cover";
-		body.style.transition = "0.5s ease";
+		content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interlude.jpg) center no-repeat fixed #000000";
+		content.style.backgroundSize = "cover";
+		content.style.transition = "0.5s ease";
 		document.getElementById("scroll-down").style.visibility = "hidden";
 		document.getElementById("scroll-down").style.opacity = "0";
 		document.getElementById("scroll-title").style.visibility = "hidden";
@@ -44,25 +44,25 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 1000 && scroll <= 1800)) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interview.jpg) center no-repeat fixed #000000";
-		body.style.backgroundSize = "cover";
-		body.style.transition = "0.5s ease";
+		content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interview.jpg) center no-repeat fixed #000000";
+		content.style.backgroundSize = "cover";
+		content.style.transition = "0.5s ease";
 		}
 
 	else if (scroll >= 1600 && scroll <= 2600) {
-		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.jpg) center no-repeat fixed #000000";
-		body.style.backgroundSize = "cover";
-		body.style.transition = "0.5s ease";
+		content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.jpg) center no-repeat fixed #000000";
+		content.style.backgroundSize = "cover";
+		content.style.transition = "0.5s ease";
 		}
 
 	}
 
 $(document).ready(function(){
-	$("a").on('click', function(event) {
+	$("a").on("click", function(event) {
 	if (this.hash !== "") {
 	event.preventDefault();
 	var hash = this.hash;
-	$('html, body').animate({
+	$("html, body").animate({
 	scrollTop: $(hash).offset().top
 	}, 1000, function(){
 	});
