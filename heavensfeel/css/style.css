@@ -74,6 +74,45 @@ body::-webkit-scrollbar-thumb {
 	border-color: #7F499D transparent #7F499D transparent;
 	}
 
+#backgrounds {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 0;
+	}
+
+#cover-bg, #interlude-bg, #interview-bg, #epilogue-bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	}
+
+#cover-bg {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#interlude-bg {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interlude.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#interview-bg {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interview.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#epilogue-bg {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#content {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	}
+
 #cover {
 	width: 100%;
 	height: 100%;
