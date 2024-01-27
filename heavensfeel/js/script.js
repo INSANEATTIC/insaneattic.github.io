@@ -32,7 +32,7 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 20 && scroll <= 600) || (scroll >= 600 && scroll <= 1000)) {
-		body.style.background = "url(C:/Users/InsaneChronos/Desktop/FSNHFODCD/assets/interlude.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interlude.jpg) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		document.getElementById("scroll-down").style.visibility = "hidden";
@@ -44,13 +44,13 @@ window.onscroll = function (event) {
 		}
 
 	else if ((scroll >= 1000 && scroll <= 1800)) {
-		body.style.background = "url(C:/Users/InsaneChronos/Desktop/FSNHFODCD/assets/interview.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/interview.jpg) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		}
 
 	else if (scroll >= 1600 && scroll <= 2600) {
-		body.style.background = "url(C:/Users/InsaneChronos/Desktop/FSNHFODCD/assets/epilogue.png) center no-repeat fixed #000000";
+		body.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.jpg) center no-repeat fixed #000000";
 		body.style.backgroundSize = "cover";
 		body.style.transition = "0.5s ease";
 		}
