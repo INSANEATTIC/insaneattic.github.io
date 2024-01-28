@@ -81,7 +81,7 @@ body::-webkit-scrollbar-thumb {
 	z-index: 0;
 	}
 
-#cover-bg, #interlude-bg, #interview-bg, #epilogue-bg {
+#cover-bg, #interlude-bg, #interview-bg, #epilogue-bg, #cover-m, #background-m {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -104,6 +104,16 @@ body::-webkit-scrollbar-thumb {
 
 #epilogue-bg {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/epilogue.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#cover-m {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover-m.jpg) center no-repeat fixed #000000;
+	background-size: cover;
+	}
+
+#background-m {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/background-m.jpg) center no-repeat fixed #000000;
 	background-size: cover;
 	}
 
@@ -219,11 +229,11 @@ body::-webkit-scrollbar-thumb {
 	}
 
 @keyframes mousewheel {
-	to {opacity: 0; top: 40px;}
+	to {opacity: 0; top: 60%;}
 	}
 
 @-webkit-keyframes mousewheel {
-	to {opacity: 0; top: 40px;}
+	to {opacity: 0; top: 60%;}
 	}
 
 #scroll-title {
