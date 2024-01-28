@@ -77,15 +77,19 @@ $(document).ready(function(){
 
 if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
 
-	var scrollDown = document.head.appendChild(document.createElement("style"));
+	var pseudoLoader = document.head.appendChild(document.createElement("style"));
+	var pseudoScroll = document.head.appendChild(document.createElement("style"));
 	var content = document.getElementById("content");
 
-	scrollDown.innerHTML = "#scroll-down:before {font-size: 100px;}";
+	pseudoLoader.innerHTML = ".dual-ring:after {width: 200px; height: 200px; border: 30px solid; border-color: #7F499D transparent #7F499D transparent;}";
+	pseudoScroll.innerHTML = "#scroll-down:before {font-size: 100px;}";
 
 	content.style.background = "url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/cover-m.jpg) center no-repeat fixed #000000";
 	content.style.backgroundSize = "cover";
 	content.style.transition = "0s";
 
+	document.querySelector(".preloader-row").style.height = "260px";
+	document.querySelector(".preloader-row").style.top = "calc(50% - 100px)";
 	document.getElementById("subtitle").style.width = "100%";
 	document.getElementById("subtitle").style.height = "30%";
 	document.getElementById("subtitle").style.top = "0";
@@ -105,6 +109,7 @@ if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
 	document.getElementById("logo-2").style.backgroundPositionY = "0%";
 	document.getElementById("scroll-down").style.width = "150px";
 	document.getElementById("scroll-down").style.height = "300px";
+	document.getElementById("scroll-down").style.border = "10px solid #FFFFFF";
 	document.getElementById("scroll-down").style.borderRadius = "100px";
 	document.getElementById("scroll-title").style.fontSize = "60px";
 	document.getElementById("scroll-title").style.visibility = "hidden";
