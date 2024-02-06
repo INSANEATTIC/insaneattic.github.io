@@ -114,9 +114,6 @@ if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
 	document.getElementById("scroll-title").style.visibility = "hidden";
 	document.getElementById("scroll-title").style.opacity = "0";
 	document.getElementById("divider-1").style.bottom = "0";
-	document.getElementById("divider-1").style.width = "75%";
-	document.getElementById("divider-2").style.width = "75%";
-	document.getElementById("divider-3").style.width = "75%";
 
 	window.onscroll = function (event) {
 
