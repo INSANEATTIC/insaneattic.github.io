@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 /* ------------------------- MOBILE VERSION ------------------------- */
 
-if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
+if (window.innerHeight > window.innerWidth) {
 
 	var pseudoLoader = document.head.appendChild(document.createElement("style"));
 	var pseudoScroll = document.head.appendChild(document.createElement("style"));
