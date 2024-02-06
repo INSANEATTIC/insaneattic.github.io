@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #000000;
+	overflow: hidden;
 	}
 
 body::-webkit-scrollbar {
@@ -252,7 +253,7 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 	height: 800px;
 	position: absolute;
-	top: 101%;
+	top: 100%;
 	transition: .5s ease;
 	display: flex;
 	justify-content: center;
@@ -327,9 +328,9 @@ body::-webkit-scrollbar-thumb {
 	}
 
 .video iframe {
-	width: 900px;
-	height: 506px;
-	border: 0;
+	width: 898px;
+	height: 504px;
+	border: 1px solid #7F499D;
 	}
 
 #divider-1 {
@@ -338,7 +339,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-1.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	bottom: 10%;
+	top: -132px;
 	visibility: hidden;
 	opacity: 0;
 	transition: .25s ease;
@@ -350,7 +351,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-2.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	bottom: 50px;
+	top: -132px;
 	}
 
 #divider-3 {
@@ -359,7 +360,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-3.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	bottom: 50px;
+	top: -132px;
 	}
 
 #to-top {
