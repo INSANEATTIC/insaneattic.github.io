@@ -3,10 +3,8 @@
 
 window.onload = function () {
 	document.body.classList.add("loaded-hiding");
-	window.setTimeout(function () {
-	document.body.classList.add("loaded");
-	document.body.classList.remove("loaded-hiding");
-	}, 500);
+	window.setTimeout(function () {document.body.classList.add("loaded");document.body.classList.remove("loaded-hiding");}, 500);
+	document.body.style.overflow = "auto";
 	}
 
 var content = document.getElementById("content");
@@ -90,15 +88,15 @@ if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
 
 	document.querySelector(".preloader-row").style.height = "260px";
 	document.querySelector(".preloader-row").style.top = "calc(50% - 100px)";
-	document.getElementById("subtitle").style.width = "100%";
+	document.getElementById("subtitle").style.width = "90%";
 	document.getElementById("subtitle").style.height = "30%";
 	document.getElementById("subtitle").style.top = "0";
 	document.getElementById("subtitle").style.backgroundPositionY = "100%";
 	document.getElementById("credits").style.height = "150px";
 	document.getElementById("credits").style.top = "2.5%";
-	document.getElementById("typemoon").style.width = "500px";
+	document.getElementById("typemoon").style.width = "400px";
 	document.getElementById("typemoon").style.height = "150px";
-	document.getElementById("insaneattic").style.width = "500px";
+	document.getElementById("insaneattic").style.width = "400px";
 	document.getElementById("insaneattic").style.height = "150px";
 	document.getElementById("logo").style.gap = "0";
 	document.getElementById("logo-1").style.width = "100%";
@@ -111,10 +109,14 @@ if (window.innerHeight > window.innerWidth || window.innerWidth < 520){
 	document.getElementById("scroll-down").style.height = "300px";
 	document.getElementById("scroll-down").style.border = "10px solid #FFFFFF";
 	document.getElementById("scroll-down").style.borderRadius = "100px";
+	document.getElementById("scroll-down").style.boxShadow = "inset 0px 0px 25px #FFFFFF";
 	document.getElementById("scroll-title").style.fontSize = "60px";
 	document.getElementById("scroll-title").style.visibility = "hidden";
 	document.getElementById("scroll-title").style.opacity = "0";
 	document.getElementById("divider-1").style.bottom = "0";
+	document.getElementById("divider-1").style.width = "75%";
+	document.getElementById("divider-2").style.width = "75%";
+	document.getElementById("divider-3").style.width = "75%";
 
 	window.onscroll = function (event) {
 
