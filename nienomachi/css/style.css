@@ -232,11 +232,11 @@ body::-webkit-scrollbar-thumb {
 	}
 
 @keyframes hisora-progress {
-	to { --progress-value: 100; }
+	to { --progress-value: 50; }
 	}
 
 @keyframes asuku-progress {
-	to { --progress-value: 80; }
+	to { --progress-value: 0; }
 	}
 
 @keyframes mio-progress {
