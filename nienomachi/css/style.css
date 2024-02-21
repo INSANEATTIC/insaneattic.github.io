@@ -29,6 +29,9 @@ body::-webkit-scrollbar-thumb {
 	}
 
 .preloader-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: relative;
 	top: calc(50% - 30px);
 	text-align: center;
@@ -96,6 +99,13 @@ body::-webkit-scrollbar-thumb {
 	width: 200px;
 	height: 60px;
 	position: relative;
+	opacity: 1;
+	transition: .5s;
+	}
+
+#zombilica:hover, #insaneattic:hover {
+	opacity: .5;
+	transition: .5s;
 	}
 
 #zombilica {
@@ -121,20 +131,19 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	}
 
-#title {
-	height: 60px;
+#demo {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/demo.jpg) center no-repeat;
+	background-size: contain;
 	}
 
-#title h1 {
-	width: 950px;
-	margin: 0 auto;
-	letter-spacing: 5px;
-	color: #FFF;
-	background: linear-gradient(to right, #FF00DE, #02FAFF);
-	height: 50px;
-	border-radius: 30px;
-	line-height: 50px;
-	font-size: 20px;
+#vk {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/vk.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#tg {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/tg.jpg) center no-repeat;
+	background-size: contain;
 	}
 
 #progress {
@@ -148,11 +157,26 @@ body::-webkit-scrollbar-thumb {
 	padding: 0;
 	}
 
+#title {
+	height: 50px;
+	background: #000000;
+	transform: skewX(-14deg);
+	}
+
+#title h1 {
+	margin: 0 auto;
+	letter-spacing: 5px;
+	color: #FFF;
+	line-height: 50px;
+	font-size: 20px;
+	transform: skewX(14deg);
+	}
+
 #percentage {
 	width: 100%;
 	height: 460px;
 	display: flex;
-	margin-top: -60px;
+	margin-top: -50px;
 	}
 
 #story {
@@ -161,7 +185,7 @@ body::-webkit-scrollbar-thumb {
 	left: -25px;
 	position: relative;
 	margin: 0px auto 100px auto;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/story-title.png) top right no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/story-title.png) center right no-repeat;
 	background-size: contain;
 	}
 
@@ -199,7 +223,7 @@ body::-webkit-scrollbar-thumb {
 	left: 25px;
 	position: relative;
 	margin: 100px auto;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/characters-title.png) top right no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/characters-title.png) center right no-repeat;
 	background-size: contain;
 	}
 
@@ -699,7 +723,7 @@ progress {
 	left: -25px;
 	position: relative;
 	margin: 0px auto 100px auto;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/gallery-title.png) top right no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/gallery-title.png) center right no-repeat;
 	background-size: contain;
 	}
 
@@ -731,7 +755,7 @@ progress {
 	left: 25px;
 	position: relative;
 	margin: 100px auto;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/devs-title.png) top right no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/devs-title.png) center right no-repeat;
 	background-size: contain;
 	}
 
@@ -763,7 +787,7 @@ progress {
 	left: -25px;
 	position: relative;
 	margin: 0px auto 50px auto;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/specs-title.png) top right no-repeat;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/nienomachi/assets/specs-title.png) center right no-repeat;
 	background-size: contain;
 	}
 
@@ -826,13 +850,12 @@ progress {
 	}
 
 #disclaimer {
-	backdrop-filter: blur(2.5px);
 	line-height: 20px;
 	height: 70px;
-	border-radius: 10px;
+	border-radius: 50px;
 	border: 1px solid #ccc;
+	box-shadow: inset 0px 0px 15px #CCCCCC;
 	margin: 0px auto 25px auto;
-	background: rgb(255 255 255 / 0.25);
 	display: grid;
 	align-items: center;
 	flex-wrap: nowrap;
@@ -842,31 +865,30 @@ progress {
 	width: 950px;
 	height: 90px;
 	margin: 50px auto;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	z-index: 1000;
 	}
 
-#logolinks img {
-	width: 290px;
+#logolinks a {
+	display: block;
+	width: 300px;
 	height: 90px;
-	border: 1px solid #ccc;
+	margin-right: 20px;
+	border: 1px solid #CCCCCC;
 	border-radius: 10px;
 	opacity: 1;
 	transition: .5s;
 	}
 
-#logolinks img:hover {
-	opacity: .5;
-	transition: .5s;
-	}
-
-#logolinks a {
-	width: 290px;
-	height: 90px;
-	margin-right: 20px;
-	}
-
 #logolinks a:last-child {
 	margin-right: 0px;
+	}
+
+#logolinks a:hover {
+	opacity: .5;
+	transition: .5s;
 	}
 
 button::-moz-focus-inner,
