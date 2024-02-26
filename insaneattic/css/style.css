@@ -1,7 +1,8 @@
 body {
 	background: #F5F5F5;
-	height: 3000px;
 	margin: 0;
+	opacity: 0;
+	transition: 1.5s;
 	}
 
 .tile {
@@ -9,13 +10,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background: #FFFFFF;
-	border-color: #EDEDED;
-	border-style: solid;
-	border-top-width: 0px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-right-width: 1px;
-	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgba(0,0,0,0.039);
+	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
 	border-radius: 1.5rem;
 	margin: 25px auto;
 	}
@@ -45,7 +40,7 @@ body {
 	width: 65px;
 	height: 65px;
 	border: 1px solid #EDEDED;
-	border-radius: 50%;
+	border-radius: 1.5rem;
 	transition: 0.25s;
 	}
 
@@ -78,12 +73,22 @@ body {
 
 .project-title {
 	height: 80px;
-	border-bottom: 1px solid #EDEDED;
+	background: linear-gradient(0deg, #F0F0F0, #FFFFFF);
 	border-radius: 1.5rem 1.5rem 0 0;
-	font-family: Arial Black;
+	font-family: Calibri;
 	font-size: 18px;
 	text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
+	}
+
+.project-tile {
+	width: 768px;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 25px 0;
 	}
 
 .project-cover {
@@ -95,40 +100,106 @@ body {
 	width: 150px;
 	height: 150px;
 	border: 1px solid #EDEDED;
-	border-radius: 50%;
-	margin: auto;
+	border-radius: 1.5rem;
 	}
 
 .project-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 368px;
+	height: 150px;
 	color: #9D9D9D;
 	font-family: Calibri;
 	font-size: 18px;
-	padding: 0 25px;
 	}
 
-.project-link {
-	width: 200px;
-	border-radius: 0 0 1.5rem 0;
+.project-info p {
+	margin-top: 0;
+	}
+
+.project-status {
+	font-family: Calibri;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 4px 8px;
+	margin-bottom: 0;
+	border-radius: 30px;
+	}
+
+.in-progress {
+	background: #0000CC;
+	}
+
+.completed {
+	background: #009900;
+	}
+
+.planned {
+	background: #000000;
+	}
+
+.paused {
+	background: #CC0000;
 	}
 
 .link {
-	display: block;
-	width: 65px;
-	height: 65px;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/arrow.svg) center no-repeat;
-	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
 	border: 1px solid #EDEDED;
-	border-radius: 50%;
-	transition: 0.25s;
-	margin-left: 110px;
+	border-radius: 1.5rem;
 	}
 
-.link:hover {
-	transform: scale(1.125);
+.arrow {
+	width: 50px;
+	height: 50px;
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/arrow.svg) center no-repeat;
+	background-size: contain;
 	transition: 0.25s;
 	}
 
+.link:hover .arrow {
+	transform: translateX(10px);
+	transition: 0.25s;
+	}
+
+#mahoutsukai-no-yoru,
+#heavens-feel,
 #nie-no-machi {
 	width: 768px;
 	height: 280px;
+	}
+
+#mahoutsukai-no-yoru-logo {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/mahoyoru.jpg) center no-repeat;
+	background-size: cover;
+	}
+
+#heavens-feel-logo {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/fsn-hf-odcd.jpg) center no-repeat;
+	background-size: cover;
+	}
+
+#nie-no-machi-logo {
+	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/nie-no-machi.jpg) center no-repeat;
+	background-size: cover;
+	}
+
+#footer {
+	width: 768px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px auto;
+	font-family: Calibri;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #9D9D9D;
 	}
