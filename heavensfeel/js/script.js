@@ -129,7 +129,7 @@ if (window.innerHeight > window.innerWidth) {
 			document.getElementById("subtitle").style.visibility = "visible";
 			document.getElementById("subtitle").style.opacity = "1";
 			document.getElementById("scroll-down").style.visibility = "hidden";
-			document.getElementById("scroll-down").style.opacity = "1";;
+			document.getElementById("scroll-down").style.opacity = "1";
 			document.getElementById("divider-1").style.visibility = "hidden";
 			document.getElementById("divider-1").style.opacity = "0";
 			}
