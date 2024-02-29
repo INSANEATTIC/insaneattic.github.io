@@ -99,6 +99,7 @@ if (window.innerHeight > window.innerWidth) {
 	document.getElementById("insaneattic").style.width = "400px";
 	document.getElementById("insaneattic").style.height = "150px";
 	document.getElementById("logo").style.gap = "0";
+	document.getElementById("logo").style.maxWidth = "500px";
 	document.getElementById("logo-1").style.width = "100%";
 	document.getElementById("logo-1").style.height = "56%";
 	document.getElementById("logo-1").style.backgroundPositionY = "100%";
