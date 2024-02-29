@@ -105,6 +105,7 @@ if (window.innerHeight > window.innerWidth) {
 	document.getElementById("logo-2").style.width = "100%";
 	document.getElementById("logo-2").style.height = "30%";
 	document.getElementById("logo-2").style.backgroundPositionY = "0%";
+	document.getElementById("scroll-down").style.visibility = "hidden";
 	document.getElementById("scroll-down").style.width = "150px";
 	document.getElementById("scroll-down").style.height = "300px";
 	document.getElementById("scroll-down").style.border = "10px solid #FFFFFF";
