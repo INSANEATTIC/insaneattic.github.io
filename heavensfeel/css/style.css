@@ -214,8 +214,7 @@ body::-webkit-scrollbar-thumb {
 	border: 3px solid #FFFFFF;
 	border-radius: 60px;
 	position: absolute;
-	bottom: 10%;
-	box-shadow: inset 0px 0px 5px #FFFFFF;
+	bottom: 15%;
 	transition: .25s ease;
 	&::before {
 		content: '●';
@@ -247,7 +246,7 @@ body::-webkit-scrollbar-thumb {
 	font-family: "Calibri";
 	font-size:15px;
 	position: absolute;
-	bottom: 5%;
+	bottom: 10%;
 	letter-spacing: 0.15em;
 	transition: .25s ease;
 	}
@@ -286,7 +285,7 @@ body::-webkit-scrollbar-thumb {
 	width: 900px;
 	height: 160px;
 	position: absolute;
-	top: calc(100% + 2300px);
+	top: calc(100% + 2432px);
 	left: calc(50% - 450px);
 	transition: .5s ease;
 	display: flex;
@@ -303,6 +302,8 @@ body::-webkit-scrollbar-thumb {
 	color: #FFFFFF;
 	font-family: "Times New Roman";
 	letter-spacing: 10px;
+	position: relative;
+	top: 132px;
 	}
 
 .last-letter {
@@ -319,15 +320,17 @@ body::-webkit-scrollbar-thumb {
 	text-align: center;
 	line-height: 30px;
 	font-family: "Calibri";
-	font-size:16px;
+	font-size: 16px;
 	letter-spacing: 1px;
+	position: relative;
+	top: 132px;
 	}
 
 .video {
 	width: 900px;
 	height: 506px;
 	position: absolute;
-	top: 100px;
+	top: 232px;
 	}
 
 .video iframe {
@@ -342,9 +345,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-1.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: -132px;
-	visibility: hidden;
-	opacity: 0;
+	top: 0px;
 	transition: .25s ease;
 	}
 
@@ -354,7 +355,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-2.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: -132px;
+	top: 0px;
 	}
 
 #divider-3 {
@@ -363,7 +364,7 @@ body::-webkit-scrollbar-thumb {
 	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/heavensfeel/assets/divider-3.png) center no-repeat;
 	background-size: cover;
 	position: absolute;
-	top: -132px;
+	top: 0px;
 	}
 
 #to-top {
