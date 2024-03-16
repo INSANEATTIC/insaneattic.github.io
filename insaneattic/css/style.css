@@ -40,7 +40,7 @@ body {
 	width: 65px;
 	height: 65px;
 	border: 1px solid #EDEDED;
-	border-radius: 1.5rem;
+	border-radius: 50%;
 	transition: 0.25s;
 	}
 
@@ -91,16 +91,11 @@ body {
 	margin: 25px 0;
 	}
 
-.project-cover {
-	width: 200px;
-	border-radius: 0 0 0 1.5rem;
-	}
-
 .project-logo {
 	width: 150px;
 	height: 150px;
 	border: 1px solid #EDEDED;
-	border-radius: 1.5rem;
+	border-radius: .75rem;
 	}
 
 .project-info {
@@ -153,7 +148,7 @@ body {
 	width: 150px;
 	height: 150px;
 	border: 1px solid #EDEDED;
-	border-radius: 1.5rem;
+	border-radius: .75rem;
 	}
 
 .arrow {
