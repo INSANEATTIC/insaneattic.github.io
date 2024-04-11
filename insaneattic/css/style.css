@@ -9,8 +9,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #FFFFFF;
-	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
 	border-radius: 1.5rem;
 	margin: 25px auto;
 	}
@@ -19,12 +17,14 @@ body {
 	width: 768px;
 	height: 352px;
 	flex-direction: column;
+	background: #FFFFFF;
+	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
 	}
 
 #insaneattic-logo {
 	width: 628px;
 	height: 150px;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/insaneattic-logo.png) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/insaneattic-logo.png) center no-repeat;
 	background-size: contain;
 	margin-top: -15px;
 	}
@@ -50,17 +50,17 @@ body {
 	}
 
 #vk-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/vk-logo.svg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/vk-logo.svg) center no-repeat;
 	background-size: cover;
 	}
 
 #tg-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/tg-logo.svg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/tg-logo.svg) center no-repeat;
 	background-size: cover;
 	}
 
 #git-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/git-logo.svg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/git-logo.svg) center no-repeat;
 	background-size: cover;
 	}
 
@@ -72,18 +72,21 @@ body {
 	}
 
 .project-title {
-	height: 80px;
-	background: linear-gradient(0deg, #F0F0F0, #FFFFFF);
-	border-radius: 1.5rem 1.5rem 0 0;
+	width: 100%;
+	background: #FFFFFF;
+	padding: 15px 0px;
+	border-radius: 50px;
+	color: #000000;
 	font-family: Calibri;
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: bold;
+	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
 	}
 
 .project-tile {
 	width: 768px;
-	height: 150px;
+	height: 300px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -92,26 +95,26 @@ body {
 	}
 
 .project-logo {
-	width: 150px;
-	height: 150px;
-	border: 1px solid #EDEDED;
+	width: 250px;
+	height: 250px;
 	border-radius: .75rem;
+	box-shadow: 0 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
 	}
 
 .project-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	width: 368px;
-	height: 150px;
+	justify-content: space-evenly;
+	width: 390px;
+	height: 300px;
 	color: #9D9D9D;
 	font-family: Calibri;
 	font-size: 18px;
 	}
 
 .project-info p {
-	margin-top: 0;
+	margin: 0;
 	}
 
 .project-status {
@@ -121,7 +124,6 @@ body {
 	font-weight: bold;
 	color: #FFFFFF;
 	padding: 4px 8px;
-	margin-bottom: 0;
 	border-radius: 30px;
 	}
 
@@ -141,48 +143,61 @@ body {
 	background: #CC0000;
 	}
 
+.project-links {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	}
+
 .link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 150px;
-	height: 150px;
-	border: 1px solid #EDEDED;
-	border-radius: .75rem;
-	}
-
-.arrow {
-	width: 50px;
+	width: 100%;
 	height: 50px;
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/arrow.svg) center no-repeat;
+	background: #FFFFFF;
+	border-radius: 50px;
+	box-shadow: 0rem 0.5rem 1.75rem 0.125rem rgb(0 0 0 / 5%);
+	}
+
+.link:hover {
+	filter: invert(1);
+	}
+
+.web {
+	background: url(https://insaneattic.github.io/insaneattic/assets/web-logo.svg) center no-repeat #FFFFFF;
 	background-size: contain;
-	transition: 0.25s;
 	}
 
-.link:hover .arrow {
-	transform: translateX(10px);
-	transition: 0.25s;
+.vk {
+	background: url(https://insaneattic.github.io/insaneattic/assets/vk-logo.svg) center no-repeat #FFFFFF;
+	background-size: contain;
 	}
 
-#mahoutsukai-no-yoru,
-#heavens-feel,
-#nie-no-machi {
+.tg {
+	background: url(https://insaneattic.github.io/insaneattic/assets/tg-logo.svg) center no-repeat #FFFFFF;
+	background-size: contain;
+	}
+
+#mahoutsukai-no-yoru, #heavens-feel, #nie-no-machi {
 	width: 768px;
-	height: 280px;
 	}
 
 #mahoutsukai-no-yoru-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/mahoyoru.jpg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/mahoyoru.jpg) center no-repeat;
 	background-size: cover;
 	}
 
 #heavens-feel-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/fsn-hf-odcd.jpg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/fsn-hf-odcd.jpg) center no-repeat;
 	background-size: cover;
 	}
 
 #nie-no-machi-logo {
-	background: url(https://raw.githubusercontent.com/INSANEATTIC/insaneattic.github.io/main/insaneattic/assets/nie-no-machi.jpg) center no-repeat;
+	background: url(https://insaneattic.github.io/insaneattic/assets/nie-no-machi.jpg) center no-repeat;
 	background-size: cover;
 	}
 
